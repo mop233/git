@@ -8,29 +8,29 @@ aside: false
 
 一开始的时候，master 分支是一条线，Git 用 master 指向最新的提交，再用 HEAD 指向 master，就能确定当前分支，以及当前分支的提交点：
 
-![02](./images/02.png)
+![02](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/02.png)
 
 每次提交，master 分支都会向前移一步，这样，随着你不断提交，master 分支的线也越来越长。
 
 当我们创建新的分支，例如 dev 时，Git 新建了一个指针叫 dev，指向 master 相同的提交，再把 HEAD 指向 dev，就表示当前分支在 dev 上：
 
-![03](./images/03.png)
+![03](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/03.png)
 
 你看，Git 创建一个分支很快，因为除了增加一个 dev 指针，改改 HEAD 的指向，工作区的文件都没有任何变化！
 
 不过，从现在开始，对工作区的修改和提交就是针对 dev 分支了，比如新提交一次后，dev 指针往前移动一步，而 master 指针不变：
 
-![04](./images/04.png)
+![04](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/04.png)
 
 假如我们在 dev 上的工作完成了，就可以把 dev 合并到 master 上。Git 怎么合并呢？最简单的方法，就是直接把 master 指向 dev 的当前提交，就完成了合并：
 
-![05](./images/05.png)
+![05](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/05.png)
 
 所以 Git 合并分支也很快！就改改指针，工作区内容也不变！
 
 合并完分支后，甚至可以删除 dev 分支。删除 dev 分支就是把 dev 指针给删掉，删掉后，我们就剩下一条 master 分支：
 
-![06](./images/06.png)
+![06](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/06.png)
 
 真是太神奇了，你看得出来有些提交是通过分支完成的吗？
 
@@ -85,7 +85,7 @@ Switched to branch 'master'
 
 切换回 master 分支后，再查看一下 readme.txt 文件，刚才添加的内容不见了！因为那个提交是在 dev 分支上，而 master 分支此刻的提交点没有变化：
 
-![07](./images/07.png)
+![07](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/07.png)
 
 现在，我们把 dev 分支的工作成果合并到 master 分支上：
 

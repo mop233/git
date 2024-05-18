@@ -83,7 +83,7 @@ eaadf4e385e865d25c48e7ca9c8395c3f7dfaef0 wrote a readme file
 
 每提交一个新版本，实际上 Git 就会把它们自动串成一条时间线。如果使用可视化工具查看 Git 历史，就可以清楚地看到提交历史的时间线：
 
-![01](./images/01.jpg)
+![01](https://raw.gitmirror.com/mop233/git/main/docs/base/control/images/01.jpg)
 
 好了，现在我们启动时光穿梭机，准备把 readme.txt 回退到上一个版本，也就是 add distributed 的那个版本，怎么做呢？
 

@@ -10,11 +10,11 @@ aside: false
 
 首先，登录 GitHub 创建一个新的仓库，名字叫 gitskills：
 
-![06](./images/06.png)
+![06](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/06.png)
 
 我们勾选【Initialize this repository with a README】，这样 GitHub 会自动为我们创建一个 README.md 文件。创建完毕后，可以看到这个文件：
 
-![07](./images/07.png)
+![07](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/07.png)
 
 现在，远程库已经准备好了，下一步是用命令 `git clone` 克隆一个本地库：
 

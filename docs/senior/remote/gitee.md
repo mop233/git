@@ -16,17 +16,17 @@ Gitee 的免费版本也提供私有库功能，只是有 5 人的成员上限�
 
 使用 Gitee 和 GitHub 类似，我们在 Gitee 上注册账号并登录后，需要先上传自己的 SSH 公钥。选择右上角用户头像 → 菜单【修改资料】，然后选择【SSH 公钥】，填写一个便于识别的标题，然后把用户主目录下的 `.ssh/id_rsa.pub` 文件内容粘贴进去：
 
-![09](./images/09.jpeg)
+![09](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/09.jpeg)
 
 点击确定即可完成并看到刚才添加的 Key：
 
-![10](./images/10.jpeg)
+![10](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/10.jpeg)
 
 如果我们已经有了一个本地的 Git 仓库（例如，一个名为 learngit 的本地库），如何把它关联到 Gitee 的远程库上呢？
 
 首先，我们在 Gitee 创建一个新的项目，选择右上角用户头像 → 菜单【控制面板】，然后点击【创建项目】：
 
-![11](./images/11.jpeg)
+![11](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/11.jpeg)
 
 项目名称最好与本地库一致。
 

@@ -56,7 +56,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 可以看到，不使用 Fast forward 模式，merge 后就像这样：
 
-![10](./images/10.png)
+![10](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/10.png)
 
 在实际开发中，我们应该按照几个基本原则进行分支管理。
 
@@ -66,7 +66,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 你和你的小伙伴们每个人都在 dev 分支上干活，每个人都有自己的分支，时不时地往 dev 分支上合并就可以了。所以，团队合作的分支看起来像这样：
 
-![11](./images/11.png)
+![11](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/11.png)
 
 :::warning 小结
 Git 分支十分强大，在团队开发中应该充分应用。

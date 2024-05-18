@@ -14,7 +14,7 @@ $ git config --global color.ui true
 
 这样，Git 会适当地显示不同的颜色，比如 `git status` 命令：
 
-![01](../images/01.png)
+![01](https://raw.gitmirror.com/mop233/git/main/docs/others/images/01.png)
 
 文件名就会标色颜色。
 

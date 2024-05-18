@@ -20,7 +20,7 @@ $ git clone git@github.com:michaelliao/bootstrap.git
 
 Bootstrap 的官方仓库 `twbs/bootstrap`、你在 GitHub 上克隆的仓库 `my/bootstrap`，以及你自己克隆到本地电脑的仓库，它们的关系就像下图显示的那样：
 
-![08](./images/08.jpg)
+![08](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/08.jpg)
 
 如果你想修复 bootstrap 的一个 bug，或者新增一个功能，立刻就开始干活，干完后，往自己的仓库推送。
 

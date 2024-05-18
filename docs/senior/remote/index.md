@@ -34,11 +34,11 @@ Git 是分布版本控制系统，同一个 Git 仓库，可以分布到不同�
 
 2. 登录 GitHub，打开【Account setting → SSH Key】页面，然后点【Add SSH Key】，填上任意 title，在 Key 文本框里粘贴 `id_rsa.pub` 文件的内容：
 
-   ![01](./images/01.png)
+   ![01](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/01.png)
 
    点【Add Key】，你就应该看到已经添加的 Key：
 
-   ![02](./images/02.png)
+   ![02](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/02.png)
 
 为什么 GitHub 需要 SSH Key 呢？因为 GitHub 需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而 Git 支持 SSH 协议，所以，GitHub 只要知道了你的公钥，就可以确认只有你自己才能推送。
 

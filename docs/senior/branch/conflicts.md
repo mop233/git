@@ -40,7 +40,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
 
 现在，master 分支和 feature1 分支各自都分别有新的提交，变成了这样：
 
-![08](./images/08.png)
+![08](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/08.png)
 
 这种情况下，Git 无法执行“快速合并”，只能视图把各自的修改合并起来，但这种合并可能会有冲突，我们试试看：
 
@@ -101,7 +101,7 @@ $ git commit -m "conflict fixed"
 
 现在，master 分支和 feature1 分支变成了下图所示：
 
-![09](./images/09.png)
+![09](https://raw.gitmirror.com/mop233/git/main/docs/senior/branch/images/09.png)
 
 用带参数的 `git log` 也可以看到分支的合并情况：
 

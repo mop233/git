@@ -4,11 +4,11 @@
 
 首先，登录 GitHub，然后，在右上角找到【Create a new repo】按钮，创建一个新的仓库：
 
-![03](./images/03.png)
+![03](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/03.png)
 
 在 Repository name 填入 learngit，其他保持默认设置，点击【Create repository】按钮，就成功创建了一个新的 Git 仓库：
 
-![04](./images/04.png)
+![04](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/04.png)
 
 目前，在 GitHub 上的这个 learngit 仓库还是空的，GitHub 告诉我们，可以从这个仓库克隆出新的仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到 GitHub 仓库。
 
@@ -45,7 +45,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 推送成功后，可以立刻在 GitHub 页面中看到远程库的内容已经和本地一模一样：
 
-![05](./images/05.png)
+![05](https://raw.gitmirror.com/mop233/git/main/docs/senior/remote/images/05.png)
 
 从现在起，只要本地做了提交，就可以通过命令：
 

@@ -76,7 +76,7 @@ $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Cre
 
 来看看 `git lg` 的效果：
 
-![02](../images/02.png)
+![02](https://raw.gitmirror.com/mop233/git/main/docs/others/images/02.png)
 
 配置 Git 的时候，加上 `--global` 是针对当前用户起作用的，如果不加，那只针对当前的仓库起作用。
 
